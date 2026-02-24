@@ -1,0 +1,50 @@
+{
+    "command_prefix": {
+        "description": "命令触发词",
+        "type": "string",
+        "hint": "例如：表情加字",
+        "default": "表情加字"
+    },
+    "default_color": {
+        "description": "默认文字颜色",
+        "type": "string",
+        "hint": "可选：白色/黑色/红色/黄色/蓝色/绿色/粉色/紫色",
+        "default": "白色"
+    },
+    "default_size": {
+        "description": "默认字体大小",
+        "type": "string",
+        "hint": "可选：小字体/中字体/大字体",
+        "default": "中字体"
+    },
+    "default_position": {
+        "description": "默认文字位置",
+        "type": "string",
+        "hint": "可选：上左/上中/上右/中左/中/中右/下左/下中/下右（兼容：上/中/下）",
+        "default": "下"
+    },
+    "auto_stroke": {
+        "description": "自动添加描边",
+        "type": "bool",
+        "hint": "开启后会自动为文字添加对比色描边",
+        "default": true
+    },
+    "stroke_width": {
+        "description": "描边宽度",
+        "type": "int",
+        "hint": "描边的像素宽度",
+        "default": 2
+    },
+    "max_text_length": {
+        "description": "最大文字长度",
+        "type": "int",
+        "hint": "限制用户输入的最大字符数",
+        "default": 50
+    },
+    "cleanup_days": {
+        "description": "临时文件清理天数",
+        "type": "int",
+        "hint": "自动清理超过N天的临时文件",
+        "default": 2
+    }
+}
