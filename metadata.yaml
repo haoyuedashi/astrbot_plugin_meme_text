@@ -2,4 +2,5 @@ name: "astrbot_plugin_meme_text"
 description: "表情包添加文字插件 - 引用表情图片添加自定义文字支持位置颜色大小"
 author: "haoyuedashi"
 version: "1.0.0"
-repo: ""
+repo: "https://github.com/haoyuedashi/astrbot_plugin_meme_text"
+
